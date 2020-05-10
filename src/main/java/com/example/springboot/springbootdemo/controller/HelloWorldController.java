@@ -8,6 +8,7 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/")
 	public String sayHello() {
+		System.out.println("sayHello started");
 		return "Hello!! from Spring Boot";
 	}
 
