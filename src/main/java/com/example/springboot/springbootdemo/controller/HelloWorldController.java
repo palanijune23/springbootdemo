@@ -10,7 +10,7 @@ public class HelloWorldController {
 	public String sayHello() {
 		System.out.println("sayHello started");
 		System.out.println("sayHello end");
-		return "Hello!! from Spring Boot";
+		return "Hello!! from Spring Boot Application";
 	}
 
 }
